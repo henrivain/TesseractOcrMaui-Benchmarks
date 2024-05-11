@@ -1,0 +1,127 @@
+Every size is told in the start of the paragraph
+Text can be compared in the websites like https://text-compare.com/
+
+1------
+Lorem Ipsum is simply dummy text of the printing and typesetting
+industry. Lorem Ipsum has been the industry's standard dummy
+text ever since the 1500s, when an unknown printer took a galley
+of type and scrambled it to make a type specimen book. It has
+survived not only five centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged. It was popularised in
+the 1960s with the release of Letraset sheets containing Lorem
+Ipsum passages, and more recently with desktop publishing
+software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Contrary to popular belief, Lorem Ipsum is not simply random text.
+It has roots in a piece of classical Latin literature from 45 BC,
+making it over 2000 years old. Richard McClintock, a Latin
+professor at Hampden-Sydney College in Virginia, looked up one of
+the more obscure Latin words, consectetur, from a Lorem Ipsum
+passage, and going through the cites of the word in classical
+literature, discovered the undoubtable source. Lorem Ipsum
+comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum
+et Malorum"” (The Extremes of Good and Evil) by Cicero, written in
+45 BC. This book is a treatise on the theory of ethics, very popular
+during the Renaissance. The first line of Lorem Ipsum, "Lorem
+ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+
+0.9-----------------
+Lorem Ipsum is simply dummy text of the printing and typesetting
+industry. Lorem Ipsum has been the industry's standard dummy
+text ever since the 1500s, when an unknown printer took a galley
+of type and scrambled it to make a type specimen book. It has
+survived not only five centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged. It was popularised in
+the 1960s with the release of Letraset sheets containing Lorem
+Ipsum passages, and more recently with desktop publishing
+software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Contrary to popular belief, Lorem Ipsum is not simply random text.
+It has roots in a piece of classical Latin literature from 45 BC,
+making it over 2000 years old. Richard McClintock, a Latin
+professor at Hampden-Sydney College in Virginia, looked up one of
+the more obscure Latin words, consectetur, from a Lorem Ipsum
+passage, and going through the cites of the word in classical
+literature, discovered the undoubtable source. Lorem Ipsum
+comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum
+et Malorum" (The Extremes of Good and Evil) by Cicero, written in
+45 BC. This book is a treatise on the theory of ethics, very popular
+during the Renaissance. The first line of Lorem Ipsum, "Lorem
+ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+
+0.75-----------
+Lorem Ipsum is simply dummy text of the printing and typesetting
+industry. Lorem Ipsum has been the industry's standard dummy
+text ever since the 15005, when an unknown printer took a galley
+of type and scrambled it to make a type specimen book. It has
+survived not only five centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged. It was popularised in
+the 1960 with the release of Letraset sheets containing Lorem
+Ipsum passages, and more recently with desktop publishing
+software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Contrary to popular belief, Lorem Ipsum is not simply random text.
+It has roots in a piece of classical Latin literature from 45 BC,
+making it over 2000 years old. Richard McClintock, a Latin
+professor at Hampden-Sydney College in Virginia, looked up one of
+the more obscure Latin words, consectetur, from a Lorem Ipsum
+passage, and going through the cites of the word in classical
+literature, discovered the undoubtable source. Lorem Ipsum
+‘comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum
+et Malorum’ (The Extremes of Good and Evi) by Cicero, written in
+45 BC. This book is a treatise on the theory of ethics, very popular
+during the Renaissance. The first line of Lorem Ipsum, "Lorem
+ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+
+0.65--------------
+Lorem Ipsum is simply dummy text of the printing and typesetting
+industry. Lorem Ipsum has been the industry's standard dummy
+text ever since the 15005, when an unknown printer took a galley
+of type and scrambled it to make & type specimen book. It has
+sunvived not only five centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged. It was popularised in
+the 19605 with the release of Letraset sheets containing Lorem
+Ipsum passages, and more recently with desktop publishing
+Software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Contrary to popular belief, Lore Ipsum is not simply randorn text
+1€ has roots in  piece of classical Latn literawre from 45 BC,
+making it over 2000 years old. Richard McClintock, a Latin
+professor at Harmpden Sydney College in Virgina,looked up one of
+the more obscure Lotin words, consectetu, from a Lorem Ipsum
+passage, and going through the cites of the word in classical
+literature, discovered the undoubtable source. Lorem  Ipsum
+comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum
+et Malorur (The Extremes of Good and Evi) by Cicero, written in
+45 BC. This book s a treatise on the theory of ethics, very popular
+during the Renaissance. The firt line of Lorem Ipsum, "Lorem
+ipsum dolor sit amet..", comes from a ine in section 1.10.32.
+
+0.5--------
+Lorem Ipsum is simply dummy text of the printing and typesetting
+ndustry. Lorem psum has been the ndustys tondard dummy
+et ever since the 1500 when an nknon et 100k 8 sy
+Of type and scramble 1 1o make 3 type specimen book It has
+suried nt ony fie centrie, but s the leap o cectronic
+‘ypesertng, remaining essentally unchanged. 1 was popiaised in
+he 19605 wih th relase of Letraset ests conaning Lorem
+Ipsum passages, and more recently Wi desktop publhing
+Softare e Alcus Pagetfake incling versions o Lorem gsum.
+
+Contray o popular bee,Lorer psu s+ simply ancern et
+1t s roots in 3 pece of clssical Lain ieratre from 45 6C.
+making It over 2000 years old. Fichard McClntock & Lot
+professorat Hampden ey Collge i Vg ooked g one of
+the more obscure Latin words,consedetur, from a Lo lpsum
+passage. and going through the cies of the word in cassial
+Inerature, discovered the Undoubtable source. Lorem fsum
+comes from secions 1102 and 110.3 of de it Bonorum
+e Mo (The Btemes of Good and i) b Ciero, witen i
+45 BC.Tis book i 3 reatise o th theory of thic,vry populr
+durng the Renassance. The frst e of Lorem Ipsum, “Lorem
+psumm dolor st ame~.",comes from a line n section 1.10.32.
+
+

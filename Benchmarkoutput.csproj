@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<debugtype>pdbonly</debugtype>
+		<debugsymbols>true</debugsymbols>
+		<allowunsafeblocks>true</allowunsafeblocks>
+		<optimize>true</optimize>
+		<configuration>release</configuration>
+		<ispackable>false</ispackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="eng.traineddata">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="eng_fast.traineddata">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BenchmarkDotNet" Version="0.13.12" />
+		<PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.12" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+		<PackageReference Include="SkiaSharp" Version="2.88.8" />
+		<PackageReference Include="TesseractOcrMaui" Version="1.2.0.1" />
+	</ItemGroup>
+</Project>
