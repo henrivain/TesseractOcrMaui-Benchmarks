@@ -13,9 +13,8 @@ Console.WriteLine(ver);
 //Console.WriteLine(File.Exists("eng.traineddata"));
 //var bench = new Benchmarks();
 //bench.Setup();
-//string text = bench.Recognize();
-//string text2 = bench.RecognizeWithEngine();
-
+////string text = bench.Recognize();
+////string text2 = bench.RecognizeWithEngine();
 
 //var paramBench = new Benchmarks_Parametherized();
 //paramBench.Setup();

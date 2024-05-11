@@ -31,9 +31,9 @@ public class Benchmarks_Parametherized
     }
 
     [Benchmark]
-    public string Recognize_Scaled(double? scale = null)
+    public string Recognize_Scaled()
     {
-        SKData outputData = ScaleDown(_imagePath, scale ?? Scales);
+        SKData outputData = ScaleDown(_imagePath, Scales);
         byte[] outputImage = outputData.AsSpan().ToArray();
 
         //SaveImageBytes(outputData, $"{_imagePath}_out_{scale ?? Scales}.png");

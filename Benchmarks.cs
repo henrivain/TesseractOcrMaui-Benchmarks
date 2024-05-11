@@ -23,17 +23,12 @@ public class Benchmarks
 
     Pix _preloadedImage;
 
-    [Params(1.0, 0.9, 0.75, 0.65, 0.5)]
-    public double Scales { get; set; }
-
-
-    
 
     [GlobalSetup]
     public void Setup()
     {
         _provider = new DummyProvider(Directory.GetCurrentDirectory(), "eng.traineddata");
-        _provider = new DummyProvider(Directory.GetCurrentDirectory(), "eng_fast.traineddata");
+        _providerFast = new DummyProvider(Directory.GetCurrentDirectory(), "eng_fast.traineddata");
         _preloadedImage = Pix.LoadFromFile(_imagePath);
     }
 
