@@ -1,17 +1,11 @@
 ﻿using BenchmarkDotNet.Attributes;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Microsoft.Diagnostics.Tracing.Parsers.AspNet;
-using Microsoft.Diagnostics.Tracing.Parsers.FrameworkEventSource;
-using SkiaSharp;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Threading.Tasks;
 using TesseractOcrMaui;
 using TesseractOcrMaui.Enums;
 using TesseractOcrMaui.Imaging;
 using TesseractOcrMaui.Iterables;
-using TesseractOcrMaui.Results;
 using TesseractOcrMaui.Tessdata;
 
 #nullable enable
@@ -23,7 +17,7 @@ public class Benchmarks
 {
     ITessDataProvider _provider;
     ITessDataProvider _providerFast;
-    const string _imagePath = @"C:\Users\henri\Downloads\loremIpsum.png";
+    const string _imagePath = @"loremIpsum_Original.png";
 
     Pix _preloadedImage;
 
@@ -121,7 +115,7 @@ public class Benchmarks
         return result;
     }
 
-
+    [Benchmark]
     public List<BoundingBox> Recognize_CoordinatesOnly_TextLine()
     {
         List<BoundingBox> result = [];

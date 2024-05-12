@@ -9,7 +9,7 @@ namespace Benchmarkoutput;
 public class Benchmarks_RecognizeScaled
 {
     ITessDataProvider _provider;
-    const string _imagePath = @"C:\Users\henri\Downloads\loremIpsum.png";
+    const string _imagePath = @"loremIpsum_Original.png";
 
     Pix _preloadedImage;
 
