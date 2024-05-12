@@ -87,7 +87,7 @@ public class Benchmarks
     [Benchmark]
     public string Recognize_EngineConfigured()
     {
-        using var engine = new TessEngine(_providerFast.GetLanguagesString(), _providerFast.TessDataFolder);
+        using var engine = new TessEngine(_provider.GetLanguagesString(), _provider.TessDataFolder);
         if (engine.TryGetBoolVar("tessedit_do_invert", out bool value1))
         {
             Console.WriteLine(value1);
