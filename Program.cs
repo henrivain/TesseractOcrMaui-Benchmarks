@@ -17,7 +17,8 @@ bench.Setup();
 //string text = bench.Recognize();
 //string text2 = bench.RecognizeWithEngine();
 //string text3 = bench.RecognizeConfigured();
-//Console.WriteLine(text3);
+//var text4 = bench.Recognize_ITesseract();
+//Console.WriteLine(text4);
 //var paramBench = new Benchmarks_Parametherized();
 //paramBench.Setup();
 //string result1 = paramBench.Recognize_Scaled(1);
@@ -25,7 +26,6 @@ bench.Setup();
 //string result3 = paramBench.Recognize_Scaled(0.75);
 //string result4 = paramBench.Recognize_Scaled(0.65);
 //string result5 = paramBench.Recognize_Scaled(0.5);
-
 
 string folder = Directory.GetCurrentDirectory();
 var config = DefaultConfig.Instance.WithArtifactsPath(Path.Combine(folder, "results"));

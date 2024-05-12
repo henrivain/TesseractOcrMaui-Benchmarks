@@ -6,6 +6,7 @@ using TesseractOcrMaui;
 using TesseractOcrMaui.Enums;
 using TesseractOcrMaui.Imaging;
 using TesseractOcrMaui.Iterables;
+using TesseractOcrMaui.Results;
 using TesseractOcrMaui.Tessdata;
 
 #nullable enable
@@ -33,7 +34,6 @@ public class Benchmarks
 
 
 
-
     [Benchmark]
     public void LoadImage_FromFile()
     {
@@ -45,6 +45,24 @@ public class Benchmarks
     {
         byte[] bytes = File.ReadAllBytes(_imagePath);
         using var image = Pix.LoadFromMemory(bytes);
+    }
+
+
+    [Benchmark]
+    public string Recognize_ITesseract()
+    {
+        var tess = new Tesseract(_provider, null);
+        var result = tess.RecognizeText(_preloadedImage);
+        if (result.NotSuccess())
+        {
+            throw new Exception("", result.Exception);
+        }
+        if (result.RecognisedText is null)
+        {
+            throw new Exception("Text null");
+        }
+
+        return result.RecognisedText;
     }
 
 
