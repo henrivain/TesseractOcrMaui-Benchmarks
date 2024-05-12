@@ -1,6 +1,8 @@
 # TesseractOcrMaui-Benchmarks
 This repository contains some quickly built benchmarks to test nuget package TesseractOcrMaui speed.
 
+Note that these benchmarks are using experimental version of the nuget package that is able to be run in non Maui projects on Windows. The same Tesseract libraries are used as in Maui Windows version. Use the package version in `UsedWindowsCompatibleNugetVersion/TesseractOcrMaui.1.2.0.1.nupkg` path.
+
 ## Different ways and configurations to recognize with
 ![Benchmarks_Results_2024-05-12](https://github.com/henrivain/TesseractOcrMaui-Benchmarks/assets/89461562/6f4dc234-9b3a-4a1f-b224-ae58622fe5aa)
 
