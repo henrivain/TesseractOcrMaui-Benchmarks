@@ -6,7 +6,7 @@ using TesseractOcrMaui.Tessdata;
 
 namespace Benchmarkoutput;
 [MemoryDiagnoser]
-public class Benchmarks_Parametherized
+public class Benchmarks_RecognizeScaled
 {
     ITessDataProvider _provider;
     const string _imagePath = @"C:\Users\henri\Downloads\loremIpsum.png";
