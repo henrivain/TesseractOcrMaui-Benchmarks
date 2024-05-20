@@ -58,7 +58,6 @@ public class Benchmarks_RecognizeScaled
         SKImageInfo scaleInfo = new(targetWidth, targetHeight);
         using SKBitmap output = bitmap.Resize(scaleInfo, SKFilterQuality.Medium);
 
-
         return output.Encode(SKEncodedImageFormat.Png, 70);
 
     }

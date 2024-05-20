@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
+using SkiaSharp;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -18,7 +19,9 @@ public class Benchmarks
 {
     ITessDataProvider _provider;
     ITessDataProvider _providerFast;
-    const string _imagePath = @"loremIpsum_Original.png";
+    //const string _imagePath = @"loremIpsum_Original.png";
+    const string _imagePath = @"C:\Users\henri\Downloads\i1.jpg";
+    //const string _imagePath = @"C:\Users\henri\Downloads\i1.png_out_0_6_edged.png";
 
     Pix _preloadedImage;
 
@@ -127,6 +130,25 @@ public class Benchmarks
         List<string> result = [];
         var iterator = new ResultIterable(_preloadedImage, _provider);
         foreach (var item in iterator)
+        {
+            result.Add(item.Text);
+        }
+        return result;
+    }
+
+
+    public List<string> Recognize_Scaled_Iterator()
+    {
+        using SKData outputData = Benchmarks_RecognizeScaled.ScaleDown(_imagePath, 0.6);
+        byte[] outputImage = outputData.AsSpan().ToArray();
+        using Pix pix = Pix.LoadFromMemory(outputImage);
+
+        //Benchmarks_RecognizeScaled.SaveImageBytes(outputData, $"{_imagePath}_out_0_6.png");
+        using TessEngine engine = new(_provider.GetLanguagesString(), _provider.TessDataFolder);
+        using var iterable = engine.GetResultIterable(pix);
+
+        List<string> result = [];
+        foreach (var item in iterable)
         {
             result.Add(item.Text);
         }
